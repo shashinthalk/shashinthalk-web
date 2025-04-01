@@ -11,12 +11,11 @@ export function Header26() {
           <div className="rb-12 mb-12 text-center md:mb-18 lg:mb-20">
             <div className="w-full max-w-lg">
               <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">
-                Welcome to My Personal Portfolio Website
+                Hello, world! Dive into my portfolio and let's create something amazing!
               </h1>
               <p className="md:text-md">
                 I'm a passionate Web Developer & Content Creator dedicated to
-                crafting seamless digital experiences. Explore my projects and
-                discover how I can help bring your ideas to life.
+                crafting seamless digital experiences.
               </p>
               <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">
                 <Button title="Learn More">Learn More</Button>
