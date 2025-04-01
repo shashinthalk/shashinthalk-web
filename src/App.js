@@ -12,6 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
+          <Route path="/shashinthalk-web/" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
