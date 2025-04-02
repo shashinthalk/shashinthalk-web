@@ -2,6 +2,8 @@
 
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
+import KOPER from "../../../src/img/KOPER.png";
+import { Confirm } from 'notiflix/build/notiflix-confirm-aio';
 
 export function Header26() {
   return (
@@ -27,7 +29,9 @@ export function Header26() {
           </div>
           <div>
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+              style={{cursor:'pointer'}}
+              onClick={() => navigateYoutube('https://youtu.be/7IllJ1CO-lk?si=0g-A4gFGGjbGnDNN')}
+              src={KOPER}
               className="size-full object-cover"
               alt="Relume placeholder image"
             />
@@ -36,4 +40,21 @@ export function Header26() {
       </div>
     </section>
   );
+}
+
+function navigateYoutube(url){
+  Confirm.show(
+    'Confirmation',
+    'Do you want to open youtube?',
+    'Yes',
+    'No',
+    () => {
+      window.open(url, '_blank');
+    },
+    () => {
+      
+    },
+    {
+    },
+  )
 }

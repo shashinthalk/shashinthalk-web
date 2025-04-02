@@ -6,6 +6,7 @@ import About from './about-me';
 import Contact from './contact-me';
 import Projects from './projects';
 import ProjectDetails from './project-detail';
+import ToDo from './tools/todo'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/todo" element={<ToDo />} />
           <Route path="/projects/:id" element={<ProjectDetails />} />
         </Routes>
       </div>
