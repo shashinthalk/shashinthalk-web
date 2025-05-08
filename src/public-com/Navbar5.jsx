@@ -4,6 +4,7 @@ import { Button, useMediaQuery } from "@relume_io/relume-ui";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { RxChevronDown, RxChevronRight } from "react-icons/rx";
+import { Confirm } from 'notiflix/build/notiflix-confirm-aio';
 
 const useRelume = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -412,11 +413,29 @@ export function Navbar5() {
           <Button title="Join" variant="secondary" size="sm">
             Join
           </Button>
-          <Button title="Subscribe" size="sm">
+          <Button onClick={() => navigateYoutube('https://www.youtube.com/@saraineurope')} title="Subscribe" size="sm">
             Subscribe
           </Button>
         </div>
       </div>
     </section>
   );
+}
+
+
+function navigateYoutube(url){
+  Confirm.show(
+    'Confirmation',
+    'Do you like to subscribe my youtube channel?',
+    'Yes',
+    'No',
+    () => {
+      window.open(url, '_blank');
+    },
+    () => {
+      
+    },
+    {
+    },
+  )
 }

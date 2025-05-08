@@ -6,7 +6,10 @@ import About from './about-me';
 import Contact from './contact-me';
 import Projects from './projects';
 import ProjectDetails from './project-detail';
-import ToDo from './tools/todo'
+import ToDo from './tools/todo';
+import Scrapper from './tools/scrapper';
+import AICam from './tools/ai-cam';
+
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/todo" element={<ToDo />} />
+          <Route path="/projects/scrapper" element={<Scrapper />} />
+          <Route path="/projects/ai-cam" element={<AICam />} />
           <Route path="/projects/:id" element={<ProjectDetails />} />
         </Routes>
       </div>

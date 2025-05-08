@@ -6,6 +6,7 @@ import { Layout252 } from "./components/Layout252";
 import { Layout22 } from "./components/Layout22";
 import { Cta45 } from "./components/Cta45";
 import { Footer5 } from "./components/Footer5";
+import FloatingChatBox from "../tools/chat-bot";
 
 export default function Page() {
   return (
@@ -17,6 +18,7 @@ export default function Page() {
       <Layout22 />
       <Cta45 />
       <Footer5 />
+      <FloatingChatBox />
     </div>
   );
 }

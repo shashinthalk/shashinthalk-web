@@ -4,6 +4,7 @@ import "./todo.css";
 import { Navbar5 } from "../../public-com/Navbar5";
 import { Footer5 } from "../../public-com/Footer5";
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
+import axios from "axios";
 
 function Todo() {
   const [tasks, setTasks] = useState([
@@ -13,8 +14,24 @@ function Todo() {
   ]);
   const [newTask, setNewTask] = useState("");
 
+  
+  const loadingDataFromAPI = async () => {
+    try {
+      const response = await axios.get("http://localhost:3030/tasks");
+      console.log("Response:", response.data);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
+
+
+
   // Handle task addition
   const handleAddTask = () => {
+
+    loadingDataFromAPI()
+
+
     if (newTask.trim()) {
       setTasks([...tasks, { id: Date.now().toString(), text: newTask }]);
       setNewTask("");
