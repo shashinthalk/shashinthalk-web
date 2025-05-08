@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shashinthalk-web/static/css/main.78b3abf0.css",
-    "main.js": "/shashinthalk-web/static/js/main.d84451d2.js",
+    "main.css": "/shashinthalk-web/static/css/main.c8ecd397.css",
+    "main.js": "/shashinthalk-web/static/js/main.288b52f8.js",
     "static/js/453.aa3e3e9c.chunk.js": "/shashinthalk-web/static/js/453.aa3e3e9c.chunk.js",
     "static/media/KOPER.png": "/shashinthalk-web/static/media/KOPER.11988b677725d2c004a3.png",
     "index.html": "/shashinthalk-web/index.html",
-    "main.78b3abf0.css.map": "/shashinthalk-web/static/css/main.78b3abf0.css.map",
-    "main.d84451d2.js.map": "/shashinthalk-web/static/js/main.d84451d2.js.map",
+    "main.c8ecd397.css.map": "/shashinthalk-web/static/css/main.c8ecd397.css.map",
+    "main.288b52f8.js.map": "/shashinthalk-web/static/js/main.288b52f8.js.map",
     "453.aa3e3e9c.chunk.js.map": "/shashinthalk-web/static/js/453.aa3e3e9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78b3abf0.css",
-    "static/js/main.d84451d2.js"
+    "static/css/main.c8ecd397.css",
+    "static/js/main.288b52f8.js"
   ]
 }
