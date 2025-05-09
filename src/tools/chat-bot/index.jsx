@@ -56,7 +56,7 @@ export default function CenteredChatBox() {
         setMessages(prev => [...prev, { text: input, sender: "user" }]);
         setInput("");
       
-        const url = 'http://51.21.130.172:5000/chat';
+        const url = 'https://51.21.130.172:5000/chat';
         const data = { message: input };
       
         try {
