@@ -1,6 +1,7 @@
 "use client";
 
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
+import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { RxChevronDown, RxChevronRight } from "react-icons/rx";
@@ -110,13 +111,13 @@ export function Navbar5() {
               Home
             </a>
             <a
-              href="projects"
+              href="#/projects"
               className="block py-3 text-md first:pt-7 lg:px-4 lg:py-6 lg:text-base first:lg:pt-6"
             >
               Projects
             </a>
             <a
-              href="about"
+              href="#/about"
               className="block py-3 text-md first:pt-7 lg:px-4 lg:py-6 lg:text-base first:lg:pt-6"
             >
               About Me
