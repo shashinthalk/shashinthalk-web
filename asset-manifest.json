@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shashinthalk-web/static/css/main.c8ecd397.css",
-    "main.js": "/shashinthalk-web/static/js/main.288b52f8.js",
-    "static/js/453.aa3e3e9c.chunk.js": "/shashinthalk-web/static/js/453.aa3e3e9c.chunk.js",
-    "static/media/KOPER.png": "/shashinthalk-web/static/media/KOPER.11988b677725d2c004a3.png",
-    "index.html": "/shashinthalk-web/index.html",
-    "main.c8ecd397.css.map": "/shashinthalk-web/static/css/main.c8ecd397.css.map",
-    "main.288b52f8.js.map": "/shashinthalk-web/static/js/main.288b52f8.js.map",
-    "453.aa3e3e9c.chunk.js.map": "/shashinthalk-web/static/js/453.aa3e3e9c.chunk.js.map"
+    "main.css": "/static/css/main.c8ecd397.css",
+    "main.js": "/static/js/main.0a729119.js",
+    "static/js/453.aa3e3e9c.chunk.js": "/static/js/453.aa3e3e9c.chunk.js",
+    "static/media/KOPER.png": "/static/media/KOPER.11988b677725d2c004a3.png",
+    "index.html": "/index.html",
+    "main.c8ecd397.css.map": "/static/css/main.c8ecd397.css.map",
+    "main.0a729119.js.map": "/static/js/main.0a729119.js.map",
+    "453.aa3e3e9c.chunk.js.map": "/static/js/453.aa3e3e9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8ecd397.css",
-    "static/js/main.288b52f8.js"
+    "static/js/main.0a729119.js"
   ]
 }
