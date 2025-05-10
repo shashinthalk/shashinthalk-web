@@ -56,7 +56,7 @@ export default function CenteredChatBox() {
         setMessages(prev => [...prev, { text: input, sender: "user" }]);
         setInput("");
       
-        const url = 'https://api.shashinthalk.cc/chat';
+        const url = 'https://api.shashinthalk.cc/get-answer';
         const data = { message: input };
       
         try {
